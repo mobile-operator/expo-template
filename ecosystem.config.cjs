@@ -2,7 +2,7 @@ module.exports = {
   apps: [{
     name: "expo-dev-server",
     script: "npx",
-    args: "expo start --host lan --port 8081",
+    args: "expo start --ios --host lan --port 8081",
     cwd: "/tmp/project",
     instances: 1,
     autorestart: true,
